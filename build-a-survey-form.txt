@@ -1,0 +1,139 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Best Aquatic Animal Survey</title>
+</head>
+
+<body>
+  <div id="heading-para">
+    <h1 id="title">Best Aquatic Mammal Survery Form</h1>
+    <p id="description">Thank you for sharing about your favorite aquatic animal</p>
+  </div>
+  <div id="form-styling">
+    <form id="survey-form">
+      <div class="info-input">
+        <label id="name-label"> Name
+              <input id="name" type="text" placeholder="Enter you name" required /></label>
+        <label id="email-label"> Email
+              <input id="email" type="email" placeholder="Your email" required /></label>
+        <label id="number-label"> Age <input id="number" type="number" min="2" max="9" placeholder="Age"/></label>
+      </div>
+      <div class="select-input">
+        <label>What is your favorite aquatic animal?
+          <select id="dropdown">
+            <option>Select</option>
+            <option >Dolphin</option>
+            <option >Whale</option>
+          </select>
+        </label>
+      </div>
+      <div class="radio-input">
+        <label> What is your favorite species dolphin?</label>
+        <label for="bottlenose" ><input id="bottlenose" type="radio" value="bottlenose" name="animal" class="inline" />Bottlenose Dolphin </label>
+        <label for="orca"><input type="radio" value="orca" name="animal" class="inline" />Orca 
+        </label>
+      </div>
+      <div class="checkbox-input">
+        <label for="whale"> What is your favorite whale? </label>
+        <label for="beluga">
+          <input type="checkbox" value="beluga-whale" name="animal" class="inline" />Beluga whale 
+        </label>
+        <label for="blue">
+          <input type="checkbox" value="blue-whale" name="animal" class="inline" />Blue whale 
+        </label>
+      </div>
+      <div class="textarea-input">
+        <label for="more-info"> Tell us about what is the most favorite thing about the animals you selected above.
+        <textarea name="more-info" rows="5"></textarea>
+        <button id="submit">Submit</button>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
+
+<!-- 1. Make a h1 element with an id of title -->
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+background-image: url(https://images.unsplash.com/photo-1525467187333-8e3f68b8e742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-color: #2E8B57;
+  font-family: "Gill Sans", sans-serif;
+  color: #FBFFFE;
+  font-size: 20px;
+  background-size: auto;
+}
+
+#heading-para {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#form-styling {
+  
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 40%;
+  margin: 20px auto;
+  padding: 35px;
+}
+
+
+label {
+  display: block;
+  margin: 10px;
+}
+
+input, textarea, #dropdown {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#submit {
+  background-color: #2E8B57;
+  width: 100%;
+  height: 50px;
+  margin: 50px 0;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #FBFFFE;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea {
+  height: unset;
+}
+
+.info-input, .select-input, .radio-input, .checkbox-input, .textarea-input {
+  margin: 20px;  
+}
+
+
+
+
+
+
+** end of undefined **
+
