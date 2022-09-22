@@ -4,7 +4,7 @@ background-image: url(https://images.unsplash.com/photo-1525467187333-8e3f68b8e7
   font-family: "Gill Sans", sans-serif;
   color: #FBFFFE;
   font-size: 20px;
-  background-size: auto;
+  background-size: cover;
 }
 
 #heading-para {
@@ -33,6 +33,7 @@ input, textarea, #dropdown {
   margin-top: 10px;
   border-radius: 4px;
   border: none;
+  padding: 5px;
 }
 
 
